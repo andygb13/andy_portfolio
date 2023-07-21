@@ -43,4 +43,17 @@ body {
     color: #fff;
     padding: 1rem 0;
   }
+
+  .profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-picture img {
+    width: 135px; /* Adjust the size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the image round */
+    border: 3px solid #333; /* Border color for the frame */
+  }
   
