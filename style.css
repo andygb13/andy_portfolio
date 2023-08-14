@@ -3,11 +3,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #CACCCE;
   }
   
   header {
-    background-color: #577eb1;
+    background-color: #0077B5;
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -20,7 +20,7 @@ body {
   nav {
     display: flex;
     justify-content: center;
-    background-color: #b0bbb3;
+    background-color: #86888A;
     padding: 1rem 0;
   }
   
@@ -39,7 +39,7 @@ body {
   
   footer {
     text-align: center;
-    background-color: #577eb1;
+    background-color: #0077B5;
     color: #fff;
     padding: 1rem 0;
   }
@@ -52,8 +52,13 @@ body {
   
   .profile-picture img {
     width: auto; /* Adjust the size as needed */
-    height: 300px;
+    height: 200px;
     border-radius: 50%; /* Makes the image round */
-    border: 3px solid #333; /* Border color for the frame */
+    border: 3px solid #86888A; /* Border color for the frame */
+  }
+
+  .resume embed {
+    display: block;
+    margin: 0 auto;
   }
   
